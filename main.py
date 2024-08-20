@@ -271,7 +271,7 @@ async def blackjack(ctx, apuesta: int):
 @client.event
 async def on_ready():
     print(f'{client.user.name} está listo! / {client.user.name} is ready!')
-    await client.change_presence(activity=discord.Game(name="https://github.com/Lostdou"))
+    await client.change_presence(activity=discord.Game(name="r!help"))
 
 # Event triggered when a member interacts with the bot for the first time
 @client.event
